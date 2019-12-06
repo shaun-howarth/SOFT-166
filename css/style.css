@@ -1,0 +1,189 @@
+ body {
+     margin:0;
+     background:#c0cbda;
+}
+ h1,h2,h3,h4 {
+    font-family: "Arial", sans-serif;
+}
+ h1 {
+    display:block;
+    width: 100%;
+    text-align:center;
+    color:rgb(255,255,255);
+    font-weight: bold;
+    background: rgb(73,142,169);
+    margin:0;
+    padding:10px 0 10px 0;
+}
+ p {
+    font-family: "Arial", sans-serif;
+}
+
+
+/* Main web page buttons */
+
+ .button-wrapper {
+    text-align:center;
+    font-size: 0;
+}
+ .button-wrapper button {
+    background: rgb(73, 142, 169);
+    color: rgb(245,245,245);
+    border:none;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px;
+    width:200px;
+}
+ .button-wrapper button:hover{
+    background:rgb(48, 101, 122);
+}
+ .row{
+    display:block;
+    width: 100%;
+}
+
+
+/* Player buttons  */
+
+
+ .row.top button {
+    height: 130px;
+}
+ .row.bottom {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+ table {
+    display: inline-block;
+}
+ .game-wrapper{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+ td{
+    padding: 20px;
+    width:70px;
+    height: 70px;
+    background: rgb(73,142,169);
+}
+
+
+
+/* bottom buttoms on game  */
+
+
+ .game.row-bottom {
+    text-align:center;
+    font-size: 0;
+}
+ .game.row-bottom button {
+    background: rgb(73, 142, 169);
+    color: rgb(245,245,245);
+    border:none;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px;
+    width:200px;
+}
+ .game.row-bottom button:hover{
+    background:rgb(48, 101, 122);
+}
+
+
+
+
+/* main menu lights page */
+
+
+
+ .menu-buttonlights {
+    text-align:center;
+    font-size: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+ 
+
+
+
+
+
+ .menu-buttonlights button {
+
+    background: rgb(73, 142, 169);
+    color: rgb(245,245,245);
+    border:none;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px;
+    width:200px;
+
+
+ }
+
+
+
+.menu-buttonlights button:hover
+
+{
+background:rgb(48, 101, 122);
+
+}
+
+
+/* main menu about page */
+
+
+.menu-buttonabout {
+    text-align:center;
+    font-size: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+}
+ 
+
+
+
+
+
+ .menu-buttonabout button {
+
+    background: rgb(73, 142, 169);
+    color: rgb(245,245,245);
+    border:none;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px;
+    width:200px;
+
+
+ }
+
+
+
+.menu-buttonabout button:hover
+
+{
+background:rgb(48, 101, 122);
+
+}
+
