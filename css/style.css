@@ -3,8 +3,10 @@
      background:#c0cbda;
 }
  h1,h2,h3,h4 {
-    font-family: "Arial", sans-serif;
+    font-family: "Bahnschrift", sans-serif;
 }
+
+
  h1 {
     display:block;
     width: 100%;
@@ -15,6 +17,8 @@
     margin:0;
     padding:10px 0 10px 0;
 }
+
+
  p {
     font-family: "Arial", sans-serif;
 }
@@ -24,6 +28,7 @@
 td:hover{
 
 background:rgb(48, 101, 122);
+
 
 }
 
@@ -84,6 +89,8 @@ button
     text-align:center;
     font-size: 0;
 }
+
+
  .score-pane button {
     background: rgb(156, 9, 9, 0.72);
     color: rgb(245,245,245);
@@ -95,6 +102,7 @@ button
     font-size: 16px;
     margin:20px 200px 20px 180px;
     width:200px;
+    font-family:;
 }
 
 
