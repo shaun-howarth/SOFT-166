@@ -91,7 +91,7 @@ button
 }
 
 
- .score-pane button {
+ #player2 {
     background: rgb(156, 9, 9, 0.72);
     color: rgb(245,245,245);
     border:none;
@@ -106,6 +106,22 @@ button
 }
 
 
+
+#player1 {
+    background: rgb(12, 130, 65, 0.72);
+    color: rgb(245,245,245);
+    border:none;
+    padding: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: inline-block;
+    font-size: 16px;
+    margin:20px 200px 20px 180px;
+    width:200px;
+    font-family:; 
+
+
+}
  
 
 
