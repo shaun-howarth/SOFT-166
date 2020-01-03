@@ -11,6 +11,6 @@ Link to youtube video showing tutorial of entire website:
 Screenshots of all of the web pages included within the website:
 
 
-Link to Apllication fact sheet:
+Link to Application fact sheet (Needs to be 200 words):
 
 
