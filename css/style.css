@@ -2,6 +2,9 @@
      margin:0;
      background:#c0cbda;
 }
+
+
+
  h1,h2,h3,h4 {
     font-family: "Bahnschrift", sans-serif;
 }
@@ -19,8 +22,21 @@
 }
 
 
+
+h2 {
+
+
+    text-align:center;
+    
+
+}
+
+
+
+
+
  p {
-    font-family: "Arial", sans-serif;
+    font-family: 'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
 }
 
 
@@ -43,12 +59,42 @@ button
 
 
 
+
+
+.copyright-text {
+
+position: relative;
+bottom: -400px;
+
+}
+
+
+/* Images used on web pages */
+
+
+.light-image {
+
+
+align-content: center;
+width:500px;height:600px;
+
+
+
+}
+
+
+
+
+
 /* Main web page buttons */
 
  .button-wrapper {
     text-align:center;
     font-size: 0;
 }
+
+
+
  .button-wrapper button {
     background: rgb(73, 142, 169);
     color: rgb(245,245,245);
@@ -60,30 +106,42 @@ button
     font-size: 16px;
     margin:20px;
     width:200px;
+
+
 }
  .button-wrapper button:hover{
     background:rgb(48, 101, 122);
 }
+
+
  .row{
     display:block;
     width: 100%;
 }
 
 
-/* Player buttons  */
+/* Main Menu buttons */
 
 
- .row.top button {
+ .row.middle button {
     height: 130px;
 }
 
 
+ 
  .row.bottom {
-    
+
+    text-align:center;
+    font-size: 0;
+    width: 100%;
+    position: relative;
+    bottom: -400px;
+    left: 0;
 
 }
 
-/* score buttons */
+
+/* score buttons on Game application page */
 
 .score-pane {
     text-align:center;
@@ -181,16 +239,17 @@ background:rgb(48, 101, 122);
 
 
 
-/* main menu lights page */
+/* main menu button lights page */
 
 
 
  .menu-buttonlights {
+
     text-align:center;
     font-size: 0;
     width: 100%;
-    position: absolute;
-    bottom: 40px;
+    position: relative;
+    bottom: -300px;
     left: 0;
 }
  
@@ -225,15 +284,18 @@ background:rgb(48, 101, 122);
 }
 
 
-/* main menu about page */
+
+
+
+/* main menu button about page */
 
 
 .menu-buttonabout {
     text-align:center;
     font-size: 0;
     width: 100%;
-    position: absolute;
-    bottom: 40px;
+    position: relative;
+    bottom: -160px;
     left: 0;
 }
  

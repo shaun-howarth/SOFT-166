@@ -20,6 +20,8 @@ $(document).ready(function() {
 					color(apiURL, 140, [0.2, 0.2]);
 				}
 			}	
+
+
 			else {
 				playerturn ="o" 
 				$("#player2").css("background", "rgba(156, 9, 9, 0.72)");
@@ -29,16 +31,21 @@ $(document).ready(function() {
 					var apiURL = bulbIP + apiKey + "/lights/" + i;
 					color(apiURL, 140, [0.2, 0.2]);
 				}
+
+
 				for(var i = 4; i <= 6; i++) {
 					var apiURL = bulbIP + apiKey + "/lights/" + i;
 					power(apiURL, false);
+
 				}
-			}
+	}	}	}
+
+
+
+});	
+
+	
 
 
 
 
-		}
-
-	});
-});

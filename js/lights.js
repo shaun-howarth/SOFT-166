@@ -12,6 +12,8 @@ function power(url, power){
 		}
 	});
 }
+
+
 function color(url, brightness, color){
 	$.ajax({
 		url:url + "/state",
