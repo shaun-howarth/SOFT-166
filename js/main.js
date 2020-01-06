@@ -7,6 +7,8 @@ $(document).ready(function() {
 
 			$(this).text(playerturn);
 
+			checkwinner(playerturn);
+
 			if(playerturn =="x") {
 				$("#player1").css("background", "rgba(156, 9, 9, 0.72)");
 				$("#player2").css("background", "rgba(12, 130, 65, 0.72)");
@@ -20,6 +22,7 @@ $(document).ready(function() {
 					color(apiURL, 140, [0.2, 0.2]);
 				}
 			}	
+
 
 
 			else {
@@ -38,10 +41,36 @@ $(document).ready(function() {
 					power(apiURL, false);
 
 				}
-	}	
-}	
+
+			
+
+	}
+}
+});
+
+
+function checkwinner(turn){
+
+if(
+	$("#1").text() == $("#2").text() && $("#2").text() == $("#3").text() && $("#1").text() != "" || 
+	$("#4").text() == $("#5").text() && $("#5").text() == $("#6").text() && $("#4").text() != "" || 
+	$("#7").text() == $("#8").text() && $("#8").text() == $("#9").text() && $("#7").text() != "" || 
+	$("#1").text() == $("#4").text() && $("#4").text() == $("#7").text() && $("#1").text() != "" || 
+	$("#2").text() == $("#5").text() && $("#5").text() == $("#8").text() && $("#2").text() != "" || 
+	$("#3").text() == $("#6").text() && $("#6").text() == $("#9").text() && $("#3").text() != "" || 
+	$("#1").text() == $("#5").text() && $("#5").text() == $("#9").text() && $("#1").text() != "" || 
+	$("#7").text() == $("#5").text() && $("#5").text() == $("#3").text() && $("#7").text() != "") {
+
+$("#winnerlose-header").text(turn.toUpperCase() + " WINS");
+
+
+
 }
 
+
+
+
+}
 
 
 });	

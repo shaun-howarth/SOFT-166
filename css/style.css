@@ -84,16 +84,11 @@ bottom: -150px;
   display: block;
   margin-left:auto;
   margin-right:auto;
-  width:50.5%;
+  width:35%;
 }
 
 
-.light-image {
 
-padding:1px;
-border:1px solid #021a40;
-
-}
 
 
 
@@ -106,7 +101,21 @@ border:1px solid #021a40;
   display: block;
   margin-left:auto;
   margin-right:auto;
-  width:50%;
+  width:35%;
+
+
+}
+
+
+/* About page image */
+
+.infoicon-image {
+
+display: block;
+margin-left:auto;
+margin-right:auto;
+width:20%;
+
 
 }
 
@@ -218,6 +227,18 @@ javascript.*/
  
 
 
+
+
+
+#winnerlose-header
+{
+
+font-size: 50px; 
+
+}
+
+
+
 /* Styling used for HTML table (the foundation for the nine cells in the game) */
 
 
@@ -294,9 +315,8 @@ background:rgb(48, 101, 122);
     text-align:center;
     font-size: 0;
     width: 100%;
-    position: relative;
-    bottom: -250px;
-    left: 0;
+    position: absolute;
+
 }
  
 
@@ -340,9 +360,8 @@ background:rgb(48, 101, 122);
     text-align:center;
     font-size: 0;
     width: 100%;
-    position: relative;
-    bottom: -160px;
-    left: 0;
+    position: absolute;
+    
 }
  
 
