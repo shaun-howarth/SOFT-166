@@ -1,16 +1,18 @@
- body {
+/* Main or miscellaneous features for HTML content that has been styled */
+
+body {
      margin:0;
      background:#c0cbda;
 }
 
 
-
- h1,h2,h3,h4 {
+h1,h2,h3,h4 {
     font-family: "Bahnschrift", sans-serif;
 }
 
 
- h1 {
+
+h1 {
     display:block;
     width: 100%;
     text-align:center;
@@ -24,22 +26,18 @@
 
 
 h2 {
-
-
-    text-align:center;
-    
-
+text-align:center;
 }
 
 
 
-
-
- p {
+p {
     font-family: 'Helvetica Neue', 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
 }
 
 
+
+/* Whenever cursor hovers over in game application cell (within the HTML table) it changes colour */
 
 td:hover{
 
@@ -49,6 +47,8 @@ background:rgb(48, 101, 122);
 }
 
 
+
+/* Border radius option applied to all buttons to enable curved edges */
 
 button
 
@@ -60,25 +60,53 @@ button
 
 
 
+/* Styling used to locate copyright text on index page */
 
 .copyright-text {
 
 position: relative;
-bottom: -400px;
+bottom: -150px;
 
 }
 
 
-/* Images used on web pages */
+
+
+/* Image styling used on web pages */
+
+
+/* lights key page image */
 
 
 .light-image {
 
 
-align-content: center;
-width:500px;height:600px;
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50.5%;
+}
 
 
+.light-image {
+
+padding:1px;
+border:1px solid #021a40;
+
+}
+
+
+
+/* Index page image */
+
+.tictactoe-image
+
+{
+
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
 
 }
 
@@ -86,7 +114,9 @@ width:500px;height:600px;
 
 
 
-/* Main web page buttons */
+
+
+/* DIV class used to style buttons on Index page */
 
  .button-wrapper {
     text-align:center;
@@ -114,13 +144,11 @@ width:500px;height:600px;
 }
 
 
- .row{
-    display:block;
-    width: 100%;
-}
+ 
 
 
-/* Main Menu buttons */
+
+/* Index page middle and bottom button(s) */
 
 
  .row.middle button {
@@ -134,20 +162,27 @@ width:500px;height:600px;
     text-align:center;
     font-size: 0;
     width: 100%;
-    position: relative;
+    position: absolute;
     bottom: -400px;
     left: 0;
 
 }
 
 
-/* score buttons on Game application page */
+
+
+
+/* Score buttons on Game application page */
 
 .score-pane {
     text-align:center;
     font-size: 0;
 }
 
+
+
+/* Had given each player pane button an ID instead of a class name so it could be functionalized in
+javascript.*/
 
  #player2 {
     background: rgb(156, 9, 9, 0.72);
@@ -183,6 +218,9 @@ width:500px;height:600px;
  
 
 
+/* Styling used for HTML table (the foundation for the nine cells in the game) */
+
+
 
  table {
     display: inline-block;
@@ -195,6 +233,9 @@ width:500px;height:600px;
     display: block;
     width: 100%;
 }
+
+
+
  td{
     padding: 20px;
     width:70px;
@@ -206,7 +247,9 @@ width:500px;height:600px;
 
 
 
-/* bottom buttoms on game  */
+
+
+/* Main menu button and bottom buttons on game application page  */
 
 
  .game.row-bottom {
@@ -228,7 +271,10 @@ width:500px;height:600px;
     margin:20px;
     width:200px;
 }
+
  
+
+
 
 .game.row-bottom button:hover
 
@@ -239,7 +285,7 @@ background:rgb(48, 101, 122);
 
 
 
-/* main menu button lights page */
+/* Main menu button on lights page */
 
 
 
@@ -249,7 +295,7 @@ background:rgb(48, 101, 122);
     font-size: 0;
     width: 100%;
     position: relative;
-    bottom: -300px;
+    bottom: -250px;
     left: 0;
 }
  
@@ -287,7 +333,7 @@ background:rgb(48, 101, 122);
 
 
 
-/* main menu button about page */
+/* Main menu button on about page */
 
 
 .menu-buttonabout {

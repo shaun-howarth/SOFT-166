@@ -38,7 +38,9 @@ $(document).ready(function() {
 					power(apiURL, false);
 
 				}
-	}	}	}
+	}	
+}	
+}
 
 
 
