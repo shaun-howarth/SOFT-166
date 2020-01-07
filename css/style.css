@@ -65,7 +65,10 @@ button
 .copyright-text {
 
 position: relative;
-bottom: -150px;
+bottom: -170px;
+left: 0;
+width: 100%;
+
 
 }
 
@@ -101,10 +104,11 @@ bottom: -150px;
   display: block;
   margin-left:auto;
   margin-right:auto;
-  width:35%;
+  width:27%;
 
 
 }
+
 
 
 /* About page image */
@@ -171,8 +175,8 @@ width:20%;
     text-align:center;
     font-size: 0;
     width: 100%;
-    position: absolute;
-    bottom: -400px;
+    position: relative;
+    bottom: -550px;
     left: 0;
 
 }
@@ -228,6 +232,9 @@ javascript.*/
 
 
 
+/*ID linked to H2 heading in game for the size to turn to 50px when game is functioning with javascript
+to declare the winner. */
+
 
 
 #winnerlose-header
@@ -236,6 +243,7 @@ javascript.*/
 font-size: 50px; 
 
 }
+
 
 
 
@@ -276,6 +284,10 @@ font-size: 50px;
  .game.row-bottom {
     text-align:center;
     font-size: 0;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 0;
 
 }
 

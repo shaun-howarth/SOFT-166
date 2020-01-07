@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+	//Global variable named "playerturn" being made for Noughts and Crosses game.
+
+
 	var playerturn = "x";
 
 	$(".game-wrapper td").on("click", function() {
@@ -47,6 +50,11 @@ $(document).ready(function() {
 	}
 }
 });
+
+
+//If statement used within a function called "checkwinner".
+//This code enables the cells in the game's HTML table to check if X or O has appeared three times in a row.
+//This will then declare the winner and will automatically modify the H2 header in the game HTML file.  
 
 
 function checkwinner(turn){
