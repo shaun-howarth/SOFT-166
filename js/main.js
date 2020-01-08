@@ -5,6 +5,8 @@ $(document).ready(function() {
 
 	var playerturn = "x";
 
+//game-warpper is the class name for the DIV that contains the games foundation, HTML table cells.
+
 	$(".game-wrapper td").on("click", function() {
 		if($(this).text() == "") {
 
@@ -12,10 +14,17 @@ $(document).ready(function() {
 
 			checkwinner(playerturn);
 
+			//If statement used to turn player 1 left pane button to the colour green.
+			//When it is player 1's (X) turn.
+
+
 			if(playerturn =="x") {
 				$("#player1").css("background", "rgba(156, 9, 9, 0.72)");
 				$("#player2").css("background", "rgba(12, 130, 65, 0.72)");
 				playerturn = "o";
+
+				//HUE lights Configuration
+
 				for(var i = 1; i <= 3; i++) {
 					var apiURL = bulbIP + apiKey + "/lights/" + i;
 					power(apiURL, false);
@@ -28,11 +37,19 @@ $(document).ready(function() {
 
 
 
+			//If statement used to turn player 2 right pane button to the colour green.
+			//When it is player 2's (O) turn.
+
+
 			else {
 				playerturn ="o" 
 				$("#player2").css("background", "rgba(156, 9, 9, 0.72)");
 				$("#player1").css("background", "rgba(12, 130, 65, 0.72)");
 				playerturn = "x";
+
+
+
+				//HUE lights Configuration
 				for(var i = 1; i <= 3; i++) {
 					var apiURL = bulbIP + apiKey + "/lights/" + i;
 					color(apiURL, 140, [0.2, 0.2]);
